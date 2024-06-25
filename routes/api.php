@@ -13,7 +13,7 @@ Route::get('/user', function (Request $request) {
 */
 Route::post('/encode', [UrlShortenerController::class, 'encode']);
 
-/* Encode URL
+/* Decode URL
     ** @route GET /decode
 */
 Route::get('/decode', [UrlShortenerController::class, 'decode']);
