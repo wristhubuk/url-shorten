@@ -7,6 +7,7 @@ This is a basic URL Shortener Service built using Laravel. It provides end point
 1. Clone the repository
 2. Run `composer install`
 3. Start the server using `php artisan serve`
+4. Run PHPUnit Tests `vendor/bin/phpunit`
 
 ## API Endpoints
 
